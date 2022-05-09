@@ -146,6 +146,10 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p94-BG-gJg">
+                                <rect key="frame" x="75" y="530" width="244" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -161,6 +165,7 @@
                         <outlet property="btnPlay" destination="1aE-1P-Jrq" id="yBK-54-RRX"/>
                         <outlet property="btnRecord" destination="gip-QR-zpY" id="UTE-CF-FaX"/>
                         <outlet property="btnStop" destination="7eL-ac-dxv" id="WQZ-nP-sR9"/>
+                        <outlet property="imageView" destination="p94-BG-gJg" id="ppc-V9-zvl"/>
                         <outlet property="lblCurrentTime" destination="jbd-HH-dH1" id="zwC-Od-iFN"/>
                         <outlet property="lblEndTime" destination="rVu-z9-ogb" id="MxT-bW-cak"/>
                         <outlet property="lblRecordTime" destination="a4I-vU-95a" id="YUM-yL-SKo"/>

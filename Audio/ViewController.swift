@@ -28,6 +28,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
     @IBOutlet var btnRecord: UIButton!
     @IBOutlet var lblRecordTime: UILabel!
     
+    @IBOutlet var imageView: UIImageView!
+    
     var audioRecorder : AVAudioRecorder!
     var isRecordMode = false
     
@@ -126,6 +128,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
         audioPlayer.play()
         setPlayButtons(false, pause: true, stop: true)
         progressTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: timePlayerSelector, userInfo: nil, repeats: true)
+        imageView.image = UIImage(named: "play.png")
     }
     
     @objc func updatePlayTime() {
@@ -136,6 +139,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
     @IBAction func btnPauseAudio(_ sender: UIButton) {
         audioPlayer.pause()
         setPlayButtons(true, pause: false, stop: true)
+        imageView.image = UIImage(named: "pause.png")
     }
     
     @IBAction func btnStopAudio(_ sender: UIButton) {
@@ -144,6 +148,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
         lblCurrentTime.text = convertNSTimeInterval2String(0)
         setPlayButtons(true, pause: false, stop: false)
         progressTimer.invalidate()
+        imageView.image = UIImage(named: "stop.png")
     }
     
     @IBAction func slChangeVolume(_ sender: UISlider) {
@@ -182,12 +187,14 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
             audioRecorder.record()
             (sender as AnyObject).setTitle("Stop", for: UIControl.State())
             progressTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: timeRecordSelector, userInfo: nil, repeats: true)
+            imageView.image = UIImage(named: "record.png")
         } else {
             audioRecorder.stop()
             progressTimer.invalidate()
             (sender as AnyObject).setTitle("Record", for: UIControl.State())
             btnPlay.isEnabled = true
             initPlay()
+            imageView.image = UIImage(named: "stop.png")
         }
     }
     
