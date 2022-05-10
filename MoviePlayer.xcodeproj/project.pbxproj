@@ -16,6 +16,9 @@
 		5440156F28291EF000F6CB8F /* Fireworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5440156C28291EF000F6CB8F /* Fireworks.jpg */; };
 		5440157028291EF000F6CB8F /* FastTyping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5440156D28291EF000F6CB8F /* FastTyping.jpg */; };
 		5440157128291EF000F6CB8F /* FastTyping.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5440156E28291EF000F6CB8F /* FastTyping.mp4 */; };
+		54B26254282A1F2C00CD9876 /* Mountaineering.mov in Resources */ = {isa = PBXBuildFile; fileRef = 54B26251282A1F2C00CD9876 /* Mountaineering.mov */; };
+		54B26255282A1F2C00CD9876 /* Mountaineering.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54B26252282A1F2C00CD9876 /* Mountaineering.jpg */; };
+		54B26256282A1F2C00CD9876 /* Seascape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54B26253282A1F2C00CD9876 /* Seascape.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		5440156C28291EF000F6CB8F /* Fireworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fireworks.jpg; sourceTree = "<group>"; };
 		5440156D28291EF000F6CB8F /* FastTyping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FastTyping.jpg; sourceTree = "<group>"; };
 		5440156E28291EF000F6CB8F /* FastTyping.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FastTyping.mp4; sourceTree = "<group>"; };
+		54B26251282A1F2C00CD9876 /* Mountaineering.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Mountaineering.mov; sourceTree = "<group>"; };
+		54B26252282A1F2C00CD9876 /* Mountaineering.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mountaineering.jpg; sourceTree = "<group>"; };
+		54B26253282A1F2C00CD9876 /* Seascape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seascape.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				5440156D28291EF000F6CB8F /* FastTyping.jpg */,
 				5440156E28291EF000F6CB8F /* FastTyping.mp4 */,
 				5440156C28291EF000F6CB8F /* Fireworks.jpg */,
+				54B26252282A1F2C00CD9876 /* Mountaineering.jpg */,
+				54B26251282A1F2C00CD9876 /* Mountaineering.mov */,
+				54B26253282A1F2C00CD9876 /* Seascape.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -144,9 +153,12 @@
 			files = (
 				5440156F28291EF000F6CB8F /* Fireworks.jpg in Resources */,
 				5440156428291E3500F6CB8F /* LaunchScreen.storyboard in Resources */,
+				54B26256282A1F2C00CD9876 /* Seascape.jpg in Resources */,
 				5440157128291EF000F6CB8F /* FastTyping.mp4 in Resources */,
 				5440157028291EF000F6CB8F /* FastTyping.jpg in Resources */,
 				5440156128291E3500F6CB8F /* Assets.xcassets in Resources */,
+				54B26254282A1F2C00CD9876 /* Mountaineering.mov in Resources */,
+				54B26255282A1F2C00CD9876 /* Mountaineering.jpg in Resources */,
 				5440155F28291E3300F6CB8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
