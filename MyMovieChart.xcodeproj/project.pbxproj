@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54478CDA2854C84E009FB135 /* TheaterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54478CD92854C84E009FB135 /* TheaterCell.swift */; };
+		54478CDC2854C922009FB135 /* TheaterListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54478CDB2854C922009FB135 /* TheaterListController.swift */; };
 		547B01D82841D140009AA37A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B01D72841D140009AA37A /* AppDelegate.swift */; };
 		547B01DA2841D140009AA37A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B01D92841D140009AA37A /* SceneDelegate.swift */; };
 		547B01DC2841D140009AA37A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B01DB2841D140009AA37A /* ViewController.swift */; };
@@ -19,9 +21,14 @@
 		547B01F528420EFA009AA37A /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 547B01F228420EFA009AA37A /* rain.jpg */; };
 		547B01F628420EFA009AA37A /* secret.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 547B01F328420EFA009AA37A /* secret.jpg */; };
 		547B01F728420EFA009AA37A /* darknight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 547B01F428420EFA009AA37A /* darknight.jpg */; };
+		547EFFC5285494C200F2E4C4 /* Listbullets.png in Resources */ = {isa = PBXBuildFile; fileRef = 547EFFC3285494C200F2E4C4 /* Listbullets.png */; };
+		547EFFC6285494C200F2E4C4 /* Trailer.png in Resources */ = {isa = PBXBuildFile; fileRef = 547EFFC4285494C200F2E4C4 /* Trailer.png */; };
+		54B69011284449D600F853D9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B69010284449D600F853D9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54478CD92854C84E009FB135 /* TheaterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterCell.swift; sourceTree = "<group>"; };
+		54478CDB2854C922009FB135 /* TheaterListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterListController.swift; sourceTree = "<group>"; };
 		547B01D42841D140009AA37A /* MyMovieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		547B01D72841D140009AA37A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		547B01D92841D140009AA37A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +43,9 @@
 		547B01F228420EFA009AA37A /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpg; sourceTree = "<group>"; };
 		547B01F328420EFA009AA37A /* secret.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secret.jpg; sourceTree = "<group>"; };
 		547B01F428420EFA009AA37A /* darknight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darknight.jpg; sourceTree = "<group>"; };
+		547EFFC3285494C200F2E4C4 /* Listbullets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Listbullets.png; sourceTree = "<group>"; };
+		547EFFC4285494C200F2E4C4 /* Trailer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trailer.png; sourceTree = "<group>"; };
+		54B69010284449D600F853D9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,9 @@
 				547B01D92841D140009AA37A /* SceneDelegate.swift */,
 				547B01DB2841D140009AA37A /* ViewController.swift */,
 				547B01DD2841D140009AA37A /* Main.storyboard */,
+				54478CDB2854C922009FB135 /* TheaterListController.swift */,
+				54478CD92854C84E009FB135 /* TheaterCell.swift */,
+				54B69010284449D600F853D9 /* DetailViewController.swift */,
 				547B01EF2842092D009AA37A /* MovieCell.swift */,
 				547B01ED2841DCDD009AA37A /* MovieVO.swift */,
 				547B01EB2841D597009AA37A /* ListViewController.swift */,
@@ -86,6 +99,8 @@
 		547B01F128420EAD009AA37A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				547EFFC3285494C200F2E4C4 /* Listbullets.png */,
+				547EFFC4285494C200F2E4C4 /* Trailer.png */,
 				547B01F428420EFA009AA37A /* darknight.jpg */,
 				547B01F228420EFA009AA37A /* rain.jpg */,
 				547B01F328420EFA009AA37A /* secret.jpg */,
@@ -151,6 +166,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				547EFFC5285494C200F2E4C4 /* Listbullets.png in Resources */,
+				547EFFC6285494C200F2E4C4 /* Trailer.png in Resources */,
 				547B01F728420EFA009AA37A /* darknight.jpg in Resources */,
 				547B01E42841D142009AA37A /* LaunchScreen.storyboard in Resources */,
 				547B01F528420EFA009AA37A /* rain.jpg in Resources */,
@@ -168,11 +185,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				547B01DC2841D140009AA37A /* ViewController.swift in Sources */,
+				54478CDA2854C84E009FB135 /* TheaterCell.swift in Sources */,
 				547B01D82841D140009AA37A /* AppDelegate.swift in Sources */,
 				547B01F02842092D009AA37A /* MovieCell.swift in Sources */,
 				547B01EC2841D597009AA37A /* ListViewController.swift in Sources */,
+				54478CDC2854C922009FB135 /* TheaterListController.swift in Sources */,
 				547B01DA2841D140009AA37A /* SceneDelegate.swift in Sources */,
 				547B01EE2841DCDD009AA37A /* MovieVO.swift in Sources */,
+				54B69011284449D600F853D9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
